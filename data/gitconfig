@@ -10,8 +10,8 @@
 	clean = git-stripspace
 
 [github]
-	user = gnilekaw
+	user = disposabletech
 
 [user]
-	name = Lance Wakeling
-	email = lwakeling@gmail.com
+	name = Lance W
+	email = disposable.tech

@@ -1,10 +1,16 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Path to rvm
 export PATH="$PATH:$HOME/.rvm/bin"
 
 # Path to yarn
 export PATH="$PATH:/opt/yarn-[version]/bin"
+
+# Completions
+fpath=(/usr/local/share/zsh-completions $fpath)
+plugins=(zsh-completions)
+autoload -U compinit && compinit
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/khanda/.oh-my-zsh"
