@@ -29,9 +29,10 @@ brew install python
 
 # Install macvim
 brew install cmake
-brew install macvim
 brew unlink vim
+brew install macvim
 python3 ~/.vim/bundle/Youcompleteme/install.py --all
 
 # Other brew installs
 brew install wget
+brew install tmux
