@@ -32,3 +32,6 @@ brew install cmake
 brew install macvim
 brew unlink vim
 python3 ~/.vim/bundle/Youcompleteme/install.py --all
+
+# Other brew installs
+brew install wget
