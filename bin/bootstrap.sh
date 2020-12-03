@@ -1,5 +1,11 @@
 #/bin/bash
 
+# Install vundle (required by vimrc)
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+# Install zsh (required by zshrc)
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 workingdir=`pwd`
 
 files=$(ls data)
@@ -20,3 +26,9 @@ brew install mysql
 
 # Install Python
 brew install python
+
+# Install macvim
+brew install cmake
+brew install macvim
+brew unlink vim
+python3 ~/.vim/bundle/Youcompleteme/install.py --all
