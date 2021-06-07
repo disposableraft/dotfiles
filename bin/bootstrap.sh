@@ -36,3 +36,4 @@ python3 ~/.vim/bundle/Youcompleteme/install.py --all
 # Other brew installs
 brew install wget
 brew install tmux
+brew install direnv
